@@ -17,7 +17,7 @@
     --main-color:#06f863fd;
     --big-font:5rem;
     --h2-font:3rem;
-    --p-font:1.1rem;
+    --p-font:1.5rem;
 }
 body{
     /* background: var(--bg-color); */
@@ -169,7 +169,7 @@ section{
     transform: scale(0.9);
 }
 header.sticky{
-    background: linear-gradient(257deg, rgb(44, 208, 208) 0%, rgba(39,190,215,1) 6%, rgb(142, 46, 186) 100%);
+    /* background: linear-gradient(257deg, rgb(44, 208, 208) 0%, rgba(39,190,215,1) 6%, rgb(142, 46, 186) 100%); */
     border-bottom: 1px solid #fafaff1a;
     padding: 12px 15%;
 }
@@ -466,7 +466,7 @@ font-weight: 600;
     :root{
         --big-fot:4rem;
         --h2-font:2.5rem;
-        --p-font:1rem;
+        --p-font:1.5rem;
         transition: .1s;
     }
     .home-text h3{
@@ -533,7 +533,19 @@ font-weight: 600;
     #menu-icon{
        display: block;
     }
-    
+    :root{
+        --big-fot:2rem;
+        --h2-font:1.5rem;
+        --p-font:0.5rem;
+        transition: .1s;
+    }
+    .home-text h1{
+        font-size: 1.5rem;
+    }
+    .home-text h3{
+        font-size: 1rem;
+    }
+
    .navlist{
     position: absolute;
     top: -1000px;
